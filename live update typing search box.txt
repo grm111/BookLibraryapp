@@ -1,0 +1,53 @@
+live update typing search box 
+
+
+else if (input == "5")
+  { bool Menu5 = true;
+  while(Menu5)
+  {
+    
+    Console.WriteLine("Begin Typing to Search for an Entry.");
+    string searching = string.Empty;
+    ConsoleKeyInfo typedkey; 
+    while(true)
+      {
+        List<Unit> items = ListBooks; 
+        typedkey = Console.ReadKey(intercept: true);
+        if (typedkey.Key == ConsoleKey.Enter)
+        {
+          break;
+        }
+        else if (typedkey.Key == ConsoleKey.Backspace)
+        {
+          if (searching.Length > 0)
+          {
+            searching = searching.Substring(0, searching.Length - 1);
+          }
+
+        }
+        else if (!char.IsControl(typedkey.KeyChar))
+        {
+          searching += typedkey.KeyChar;
+        }
+        Console.SetCursorPosition(0, Console.CursorTop);
+        Console.Write(new string(' ', Console.WindowWidth));
+        Console.SetCursorPosition(0, Console.CursorTop);
+
+        Console.Write($"Search: {searching}");
+
+        var results = items
+        .Where(item => item.Contains(searching, StringComparison.OrdinalIgnoreCase)).ToList();
+        
+        Console.WriteLine();
+        foreach(var result in results)
+        {
+          Console.WriteLine($" - {result}");
+        }
+        Console.SetCursorPosition(0, Console.CursorTop - results.Count);
+        }
+
+        Console.WriteLine($"\nFinal search searching: {searching}"); 
+
+
+
+

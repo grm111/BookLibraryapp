@@ -1,0 +1,14 @@
+C:\Users\graha\Coding Projects\BookLibrary\bin\Debug\net8.0\BookLibrary.exe
+C:\Users\graha\Coding Projects\BookLibrary\bin\Debug\net8.0\BookLibrary.deps.json
+C:\Users\graha\Coding Projects\BookLibrary\bin\Debug\net8.0\BookLibrary.runtimeconfig.json
+C:\Users\graha\Coding Projects\BookLibrary\bin\Debug\net8.0\BookLibrary.dll
+C:\Users\graha\Coding Projects\BookLibrary\bin\Debug\net8.0\BookLibrary.pdb
+C:\Users\graha\Coding Projects\BookLibrary\obj\Debug\net8.0\BookLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\graha\Coding Projects\BookLibrary\obj\Debug\net8.0\BookLibrary.AssemblyInfoInputs.cache
+C:\Users\graha\Coding Projects\BookLibrary\obj\Debug\net8.0\BookLibrary.AssemblyInfo.cs
+C:\Users\graha\Coding Projects\BookLibrary\obj\Debug\net8.0\BookLibrary.csproj.CoreCompileInputs.cache
+C:\Users\graha\Coding Projects\BookLibrary\obj\Debug\net8.0\BookLibrary.dll
+C:\Users\graha\Coding Projects\BookLibrary\obj\Debug\net8.0\refint\BookLibrary.dll
+C:\Users\graha\Coding Projects\BookLibrary\obj\Debug\net8.0\BookLibrary.pdb
+C:\Users\graha\Coding Projects\BookLibrary\obj\Debug\net8.0\BookLibrary.genruntimeconfig.cache
+C:\Users\graha\Coding Projects\BookLibrary\obj\Debug\net8.0\ref\BookLibrary.dll
